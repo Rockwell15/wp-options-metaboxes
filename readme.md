@@ -1,5 +1,7 @@
 # wp-options-metaboxes
 
+wp-options-metaboxes is a lightweight class to add metabox layouts to any WordPress page
+
 ![](https://raw.githubusercontent.com/Rockwell15/wp-options-metaboxes/master/backend-screenshot.png "Example picture")
 
 ## Example Usage:

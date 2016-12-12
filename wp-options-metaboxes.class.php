@@ -1,5 +1,12 @@
 <?php
 
+/**
+ * wp-options-metaboxes is a lightweight class to add metabox layouts to any WordPress page
+ * @author Andrew Rockwell <rockwellgrowth@gmail.com>
+ * @link http://www.rockwellgrowth.com
+ * @version 0.1
+ */
+
 	class Options_Metaboxes {
 
 		protected $body    = '';
