@@ -137,13 +137,15 @@ HTML;
 		public function output() {
 
 			$output = <<< HTML
-				<div id="post-body" class="metabox-holder columns-2">
-					<div id="post-body-content">
-						$this->body
-					</div>
-					<div id="postbox-container-1" class="postbox-container">
-						<div id="side-sortables" class="meta-box-sortables ui-sortable" style="">
-							$this->sidebar
+				<div id="poststuff">
+					<div id="post-body" class="metabox-holder columns-2">
+						<div id="post-body-content">
+							$this->body
+						</div>
+						<div id="postbox-container-1" class="postbox-container">
+							<div id="side-sortables" class="meta-box-sortables ui-sortable" style="">
+								$this->sidebar
+							</div>
 						</div>
 					</div>
 				</div>
